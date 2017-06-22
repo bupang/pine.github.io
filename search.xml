@@ -3,11 +3,13 @@
   
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/06/22/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+      <title><![CDATA[搭建Hexo个人技术博客]]></title>
+      <url>/2017/06/22/hexo/</url>
+      <content type="html"><![CDATA[<p>前端时间，在学习Git与GitHub的时候，无意间发现了一个技术贴，其排版瞬间吸引了我。然后就点开了其博客主页，发现每条博文的排版都是如出一辙的好看。简介，大方，决定研究一下。发现其博客空间是有Hexo搭建的，然后就去一顿百度。<br>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown解析文章，能够快速解析出静态文件，对于纯文字的博文、插图较少的文章特别适合。</p>
+<p>所以决定自己也搞个个人博客玩玩。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>如果有不熟悉这两个东东的同学，可以先去学习一下，这两个其实就是跟命令行有关的东西，会敲linux命令的同学应该没有什么难点，其实不懂也没有关系，只要跟着敲命令就行了。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>下载网址：<a href="http://nodejs.cn" target="_blank" rel="external">http://nodejs.cn</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
@@ -20,13 +22,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[搭建Hexo个人技术博客]]></title>
-      <url>/2017/06/22/hexo/</url>
-      <content type="html"><![CDATA[<p>前端时间，在学习Git与GitHub的时候，无意间发现了一个技术贴，其排版瞬间吸引了我。然后就点开了其博客主页，发现每条博文的排版都是如出一辙的好看。简介，大方，决定研究一下。发现其博客空间是有Hexo搭建的，然后就去一顿百度。<br>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown解析文章，能够快速解析出静态文件，对于纯文字的博文、插图较少的文章特别适合。</p>
-<p>所以决定自己也搞个个人博客玩玩。</p>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>如果有不熟悉这两个东东的同学，可以先去学习一下，这两个其实就是跟命令行有关的东西，会敲linux命令的同学应该没有什么难点，其实不懂也没有关系，只要跟着敲命令就行了。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>下载网址：<a href="http://nodejs.cn" target="_blank" rel="external">http://nodejs.cn</a></p>
+      <title><![CDATA[Hello World]]></title>
+      <url>/2017/06/22/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
@@ -63,14 +63,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[分类测试文章]]></title>
-      <url>/categories/index.html</url>
+      <title><![CDATA[标签]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[标签]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[分类测试文章]]></title>
+      <url>/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
