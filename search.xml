@@ -96,6 +96,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[分类]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[about]]></title>
       <url>/about/index.html</url>
       <content type="html"></content>
@@ -104,12 +110,6 @@
     <entry>
       <title><![CDATA[标签]]></title>
       <url>/tags/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[分类]]></title>
-      <url>/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
