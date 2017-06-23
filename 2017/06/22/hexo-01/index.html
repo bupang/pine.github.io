@@ -135,7 +135,7 @@
 <meta property="og:image" content="http://cpine.bid/2017/06/22/hexo-01/pic_02.png">
 <meta property="og:image" content="http://cpine.bid/2017/06/22/hexo-01/pic_03.png">
 <meta property="og:image" content="http://cpine.bid/2017/06/22/hexo-01/pic_04.png">
-<meta property="og:updated_time" content="2017-06-23T03:38:00.000Z">
+<meta property="og:updated_time" content="2017-06-23T06:49:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建Hexo个人技术博客（一）">
 <meta name="twitter:description" content="前段时间，在学习Git与GitHub的时候，无意间发现了一个技术贴，其排版瞬间吸引了我。然后就点开了其博客主页，发现每条博文的排版都是如出一辙的好看。简介，大方，决定研究一下。发现其博客空间是有Hexo搭建的，然后就去一顿百度。 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown解析文章，能够快速解析出静态文件，对于纯文字的博文、插图较少的文章特别适合。 所以决定自己也搞">
@@ -433,21 +433,17 @@
 <h3 id="导入Hexo必要文件"><a href="#导入Hexo必要文件" class="headerlink" title="导入Hexo必要文件"></a>导入Hexo必要文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
 <p>导入后的文件层级是这样的：<br>.<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├── source<br>|   ├── _drafts<br>|   └── _posts<br>└── themes</p>
 <p>deploy：执行hexo deploy命令部署到GitHub上的内容目录<br>public：执行hexo generate命令，输出的静态网页内容目录<br>scaffolds：layout模板文件目录，其中的md文件可以添加编辑<br>scripts：扩展脚本目录，这里可以自定义一些javascript脚本<br>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。<br>_drafts：草稿文章<br>_posts：发布文章<br>themes：主题文件目录<br>_config.yml：全局配置文件，大多数的设置都在这里<br>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</p>
-<p>###启动Hexo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<h3 id="启动Hexo"><a href="#启动Hexo" class="headerlink" title="启动Hexo"></a>启动Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>你会看到如下图的首页，说明你的Hexo已经成功安装了：</p>
 <p><img src="pic_01.png" alt="首页"><br>由于这是我搭建好之后配置了主题的界面，所以看起来比较好看，嘻嘻^_^</p>
 <p>如果要停止 hexo 服务：在 Git Bash 下按 Ctrl + C 即可</p>
-<p>###选用其他主题</p>
-<p>你可以去以下地址去找你想要的主题：<br>&nbsp;&nbsp;&nbsp;&nbsp;hexo-theme：<a href="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a><br>&nbsp;&nbsp;&nbsp;&nbsp;hexo-github-theme-list：<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></p>
+<h3 id="选用其他主题"><a href="#选用其他主题" class="headerlink" title="选用其他主题"></a>选用其他主题</h3><p>你可以去以下地址去找你想要的主题：<br>&nbsp;&nbsp;&nbsp;&nbsp;hexo-theme：<a href="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a><br>&nbsp;&nbsp;&nbsp;&nbsp;hexo-github-theme-list：<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></p>
 <p>我选用的主题是比较简约清新的<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NextT</a>，现在开始将主题加到我的Hexo中（关于该主题的安装方法在其使用文档网站中也有详细说明）。</p>
-<p>####一、克隆主题<br>在终端窗口下，定位到 Hexo 站点目录下。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure></p>
+<h4 id="一、克隆主题"><a href="#一、克隆主题" class="headerlink" title="一、克隆主题"></a>一、克隆主题</h4><p>在终端窗口下，定位到 Hexo 站点目录下。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure></p>
 <p>当克隆完成后，你会发现在hexo\themes目录下就多了一个next文件夹，这个就是刚刚克隆下来的新主题。</p>
-<p>####二、配置新主题</p>
-<p>打开Hexo站点配置文件(hexo_config.yml)， 找到 theme 字段，并将其值更改为 next。</p>
+<h4 id="二、配置新主题"><a href="#二、配置新主题" class="headerlink" title="二、配置新主题"></a>二、配置新主题</h4><p>打开Hexo站点配置文件(hexo_config.yml)， 找到 theme 字段，并将其值更改为 next。</p>
 <p><img src="pic_02.png" alt="替换主题"></p>
-<p>####三、重新生成页面</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<h4 id="三、重新生成页面"><a href="#三、重新生成页面" class="headerlink" title="三、重新生成页面"></a>三、重新生成页面</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 <p>启动看下效果，这是<code>NexT</code>默认的 Scheme —— <code>Muse</code>，想要其他的效果的话，可以找到hexo\themes\next_config.yml配置文件中配置，个人觉得<code>Mist</code>比较好看<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
 <p><img src="pic_03.png" alt="主题效果Muse"></p>
 <p><img src="pic_04.png" alt="主题效果Mist"></p>
