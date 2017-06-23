@@ -21,7 +21,7 @@
     
     <entry>
       <title><![CDATA[搭建Hexo个人技术博客（一）]]></title>
-      <url>/2017/06/22/hexo1/</url>
+      <url>/2017/06/22/hexo-01/</url>
       <content type="html"><![CDATA[<p>前段时间，在学习Git与GitHub的时候，无意间发现了一个技术贴，其排版瞬间吸引了我。然后就点开了其博客主页，发现每条博文的排版都是如出一辙的好看。简介，大方，决定研究一下。发现其博客空间是有Hexo搭建的，然后就去一顿百度。</p>
 <p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown解析文章，能够快速解析出静态文件，对于纯文字的博文、插图较少的文章特别适合。</p>
 <p>所以决定自己也搞个个人博客玩玩。</p>
@@ -39,7 +39,7 @@
 <p>###启动Hexo</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>你会看到如下图的首页，说明你的Hexo已经成功安装了：</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/6512316-892246d16fa0474e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="首页"><br>由于这是我搭建好之后配置了主题的界面，所以看起来比较好看，嘻嘻^_^</p>
+<p><img src="pic_01.png" alt="首页"><br>由于这是我搭建好之后配置了主题的界面，所以看起来比较好看，嘻嘻^_^</p>
 <p>如果要停止 hexo 服务：在 Git Bash 下按 Ctrl + C 即可</p>
 <p>###选用其他主题</p>
 <p>你可以去以下地址去找你想要的主题：<br>&nbsp;&nbsp;&nbsp;&nbsp;hexo-theme：<a href="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a><br>&nbsp;&nbsp;&nbsp;&nbsp;hexo-github-theme-list：<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></p>
@@ -48,12 +48,12 @@
 <p>当克隆完成后，你会发现在hexo\themes目录下就多了一个next文件夹，这个就是刚刚克隆下来的新主题。</p>
 <p>####二、配置新主题</p>
 <p>打开Hexo站点配置文件(hexo_config.yml)， 找到 theme 字段，并将其值更改为 next。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/6512316-e5a1e9a74b580526.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="替换主题"></p>
+<p><img src="pic_02.png" alt="替换主题"></p>
 <p>####三、重新生成页面</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 <p>启动看下效果，这是<code>NexT</code>默认的 Scheme —— <code>Muse</code>，想要其他的效果的话，可以找到hexo\themes\next_config.yml配置文件中配置，个人觉得<code>Mist</code>比较好看<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/6512316-026b095635db7b27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="主题效果Muse"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/6512316-f2c48b379179533e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="主题效果Mist"></p>
+<p><img src="pic_03.png" alt="主题效果Muse"></p>
+<p><img src="pic_04.png" alt="主题效果Mist"></p>
 ]]></content>
       
         <categories>
