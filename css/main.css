@@ -185,8 +185,8 @@ th {
 }
 body {
   position: relative;
-  font-family: "Monda", Verdana, sans-serif;
-  font-size: 16px;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: Monda, sans;
+  font-family: 'Roboto Slab', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -482,7 +482,7 @@ pre,
 }
 pre,
 code {
-  font-family: "PT Mono", "Monda", Consolas, Monaco, Menlo, monospace;
+  font-family: 'PT Mono', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
@@ -998,9 +998,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: normal;
-  font-family: 'Monda', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Input Mono', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1088,7 +1088,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Monda', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Input Mono', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1106,7 +1106,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: 10px auto 15px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1361,7 +1361,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Monda', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Input Mono', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1799,7 +1799,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f13cff;
+  background: #c3a40d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2806,7 +2806,7 @@ hr {
 .post-button a {
   margin: 0 8px 8px 0 !important;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
   background: none;
   border: none;
